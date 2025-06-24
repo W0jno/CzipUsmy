@@ -20,6 +20,6 @@ clean:
 	rm -f $(OBJ) $(TARGET)
 
 run: $(TARGET)
-	./$(TARGET) roms/PONG.ch8
+	./$(TARGET) roms/test_opcode.ch8
 
 .PHONY: all clean run
